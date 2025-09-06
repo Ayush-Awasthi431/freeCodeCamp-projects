@@ -1,0 +1,128 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+body {
+  background: #f2f2f2;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+main {
+  width: 100%;
+  max-width: 400px;
+}
+
+.card {
+  background: #fff;
+  padding: 30px 25px;
+  border-radius: 15px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  text-align: center;
+}
+
+h1 {
+  margin-bottom: 15px;
+  font-size: 28px;
+  color: #007bff;
+}
+
+h2 {
+  margin-top: 20px;
+  font-size: 22px;
+  color: #333;
+}
+
+p {
+  margin-bottom: 15px;
+  font-size: 16px;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #ccc;
+  font-size: 16px;
+  margin-bottom: 15px;
+}
+
+button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #007bff;
+  color: white;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: all 0.2s ease;
+}
+
+button:hover {
+  transform: scale(1.05);
+  background-color: #0056b3;
+}
+
+button:active {
+  transform: scale(0.95);
+}
+
+.message-box {
+  margin-top: 20px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #e9ecef;
+  font-weight: bold;
+  min-height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.message-box p {
+  margin: 5px 0;
+}
+
+.message-box.status-open {
+  background-color: #d4edda;
+  color: #155724;
+}
+
+.message-box.status-closed {
+  background-color: #cce5ff;
+  color: #004085;
+}
+
+.message-box.status-insufficient {
+  background-color: #f8d7da;
+  color: #721c24;
+}
+
+.message-box.status-exact {
+  background-color: #fff3cd;
+  color: #856404;
+}
+
+.drawer-box {
+  margin-top: 10px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #f1f1f1;
+  min-height: 60px;
+  text-align: left;
+  font-size: 14px;
+}
