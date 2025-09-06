@@ -16,6 +16,8 @@ Fetches data from an API and displays RPG creature details dynamically.
 - Displays name, stats, weight, height, and types  
 - Loading spinner for better user experience  
 
+🔗 **[Live Demo](https://ayush-awasthi431.github.io/freeCodeCamp-projects/RPGCreatureSearch/)**
+
 ![RPG Creature Search Screenshot](./RPGSS.png)
 
 ---
@@ -27,6 +29,8 @@ Simulates a working cash register with live change calculation.
 - Calculates and returns correct change  
 - Updates cash drawer after each purchase  
 - Displays register status (OPEN, CLOSED, INSUFFICIENT_FUNDS)  
+
+🔗 **[Live Demo](https://ayush-awasthi431.github.io/freeCodeCamp-projects/CashRegister/)**
 
 ![Cash Register Screenshot](./CashSS.png)
 
@@ -40,6 +44,8 @@ Converts numbers (1–3999) into Roman numerals.
 - Shows error messages for invalid inputs  
 - Includes reference table for Roman numerals  
 
+🔗 **[Live Demo](https://ayush-awasthi431.github.io/freeCodeCamp-projects/RomanConverter/)**
+
 ![Number to Roman Screenshot](./RomanSS.png)
 
 ---
@@ -51,6 +57,8 @@ Validates US phone numbers using regex.
 - Alerts user if input is empty  
 - Displays whether the number is valid or invalid  
 - Allows clearing past results  
+
+🔗 **[Live Demo](https://ayush-awasthi431.github.io/freeCodeCamp-projects/TelephoneNumberValidator/)**
 
 ![Telephone Validator Screenshot](./TelephoneSS.png)
 
@@ -64,6 +72,8 @@ Checks if a given input string is a palindrome.
 - Ignores case and special characters  
 - Gives instant feedback on result  
 
+🔗 **[Live Demo](https://ayush-awasthi431.github.io/freeCodeCamp-projects/PalindromeChecker/)**
+
 ![Palindrome Checker Screenshot](./PalindromeSS.png)
 
 ---
@@ -73,8 +83,3 @@ Checks if a given input string is a palindrome.
 1. Clone this repository:
    ```bash
    git clone https://github.com/Ayush-Awasthi431/freeCodeCamp-projects.git
-
-## 🌍 View Online (GitHub Pages)
-
-You can also view these projects live in your browser (no download needed):  
-➡️ [Live Demo](https://ayush-awasthi431.github.io/freeCodeCamp-projects/)
